@@ -1,8 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Snippet Expander",
-    "version": "1.2",
-    "description": "Replace shortcut keys with predefined text snippets.",
+    "name": "Snipzo",
+    "version": "1.0",
+    "description": "Free Keybind to Snippet: Snipzo",
+    "icons": {
+      "48": "icons/snipzo_48.png",
+      "128": "icons/snipzo_128.png"
+    },
     "permissions": [
       "storage"
     ],
@@ -14,6 +18,10 @@
         "open_in_tab": false
     },
     "action": {
+      "default_icon": {
+        "48": "icons/snipzo_48.png",
+        "128": "icons/snipzo_128.png"
+      },
       "default_popup": "popup.html"
     },
     "content_scripts": [
