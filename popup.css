@@ -1,0 +1,17 @@
+body {
+    overflow: auto;
+  }
+  
+  #snippet-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
